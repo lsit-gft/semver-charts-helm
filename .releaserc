@@ -1,11 +1,13 @@
 {
-  "plugins": [
-    [
-      "semantic-release-helm",
-      {
-        chartPath: '.',
-        
-      }
+  {
+    "name": "semver-charts-helm",
+    "branches": ["dev"],
+    "plugins": [
+      [
+        "semantic-release-helm",
+        {
+          chartPath: './Chart.yaml',
+        }
+      ]
     ]
-  ]
-}
+  }
