@@ -36,10 +36,10 @@ jobs:
       - name: Get version
         id: get_version
         run: |
-          echo "VERSION=$(cat Chart.yaml| ./yq -r  '.version')" >> $GITHUB_OUTPUT
+          echo "VERSION=$(cat /helm-template/Chart.yaml| ./yq -r  '.version')" >> $GITHUB_OUTPUT
 
       - name: Commit Chart.yaml
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'chore(release) bump version to ${{ steps.get_version.outputs.VERSION }}'
-          file_pattern: 'Chart.yaml'
+          file_pattern: '/helm-template/Chart.yaml'
