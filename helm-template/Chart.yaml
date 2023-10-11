@@ -1,6 +1,0 @@
-apiVersion: v2
-name: helm-semver-release
-description: Demo repo for using semantic-release with helm
-type: application
-version: 1.0.1
-appVersion: 1.0.1
