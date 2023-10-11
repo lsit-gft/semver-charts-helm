@@ -1,6 +1,6 @@
 {
   "name": "demo-helm-semver-release",
-  "branches": ["main"],
+  "branches": ["dev"],
   "plugins": [
     [
       "semantic-release-helm",
