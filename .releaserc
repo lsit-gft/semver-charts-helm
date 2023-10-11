@@ -1,11 +1,10 @@
 {
-  "name": "semver-charts-helm",
-  "branches": ["dev"],
   "plugins": [
     [
       "semantic-release-helm",
       {
-        "chartPath": "."
+        chartPath: '.',
+        
       }
     ]
   ]
