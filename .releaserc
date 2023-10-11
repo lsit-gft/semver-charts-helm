@@ -1,5 +1,5 @@
 {
-  "name": "demo-helm-semver-release",
+  "name": "semver-charts-helm",
   "branches": ["dev"],
   "plugins": [
     [
