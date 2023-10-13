@@ -1,18 +1,12 @@
 {
     "name": "semver-charts-helm",
-    "branches": [
-      "dev",
-      ["name": "alpha",
-      {
-        "prerelease": "true",
-      }]
-      ],
+    "branches": ["dev", {name: 'beta', prerelease: true}, {name: 'alpha', prerelease: true}],
     "plugins": 
     [
       [
         "semantic-release-helm",
         {
-          "chartPath": '.',
+          chartPath: '.',
         }
       ]
     ]
