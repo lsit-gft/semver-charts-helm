@@ -2,7 +2,7 @@
     "name": "semver-charts-helm",
     "branches": [
       "dev",
-      ["alpha",
+      ["name": "alpha",
       {
         "prerelease": "true",
       }]
