@@ -1,6 +1,11 @@
 {
     "name": "semver-charts-helm",
-    "branches": ["dev"],
+    "branches": [
+      "dev",
+      "alpha"{
+        prerelease: true,
+      }
+      ],
     "plugins": 
     [
       [
